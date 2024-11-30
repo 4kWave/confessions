@@ -1,0 +1,75 @@
+:root {
+    --purple-color: #793FDF;
+    --blue-color: #7091F5;
+    --light-blue-color: #97FFF4;
+    --yellow-color: #FFFD8C;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: black;
+    font-family: 'Cutive Mono', monospace;
+}
+textarea{
+    padding: 1%;
+    outline: none;
+    box-shadow: none;
+}
+.text-area-div {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-area-style {
+    width: 40%;
+    resize: none;
+    border: 2px solid white;
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+}
+
+.title-div {
+    margin: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.confess-button {
+    font-weight: 550;
+    font-size: 24px;
+    outline: none;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    background-color: black;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.main-section {
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    word-break: break-all;
+    width: 25%;
+    font-weight: 600;
+    padding: 3%;
+    margin: 1%;
+}
